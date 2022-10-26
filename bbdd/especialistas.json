@@ -1,0 +1,22 @@
+[
+    {
+        "sede": "CABA",
+        "nombre": "Mario Bross",
+        "especializacion": "OFTALMOLOGIA"
+    },
+    {
+        "sede": "Zona Oeste",
+        "nombre": "Esteban Quito",
+        "especializacion": "MEDICO CLINICO"
+    },
+    {
+        "sede": "Zona Norte",
+        "nombre": "Adriana Gonzales",
+        "especializacion": "GINECOLOGIA"
+    },
+    {
+        "sede": "Zona Sur",
+        "nombre": "Armando Paredes",
+        "especializacion": "NUTRICION"
+    }
+    ]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+        integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Mi proyecto final</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>BIENVENIDO/A</h1>
+    </header>
+
+    <section>
+        <form class="formulario">
+
+            <label for="">Nombre y Apellido</label>
+            <input type="text" id="nombre" value="Armando Barreda">
+
+            <label for="">Indique su número de documento</label>
+            <input type="number" id="dni" value="1123456789">
+
+            <label for="condicion">Indique si es particular o su obra social</label>
+            <select id="condicion">
+                <option selected disabled>...</option>
+            </select>
+
+            <label for="especialidad">Elija una especialidad</label>
+            <select id="especialidad">
+                <option selected disabled>...</option>
+            </select>
+            <label for="fecha">Elija una fecha</label>
+            <input type="date" id="fecha">
+
+            <div class="botones">
+                <button id="btn">AGENDAR</button>
+                <button id="btnEnviar">ENVIAR DATOS POR EMAIL</button>
+                <button type="reset" id="limpiar">LIMPIAR DATOS</button>
+                <button id="recuperar">MIS TURNOS</button>
+            </div>
+        </form>
+        <section>
+            <div class="paciente">
+                <div id="datosPaciente">
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script defer src="js/main.js"></script>
+
+</html>
